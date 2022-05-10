@@ -1,0 +1,123 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 64px;
+    align-items: center;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.banner {
+    height: auto;
+}
+
+.banner img {
+    object-fit: fill;
+}
+
+.text {
+    color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.grid > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.grid > div p {
+    color: red;
+}
+
+.grid > div p del {
+    color: gray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 60px;
+}
+
+.menu {
+    background: #616161;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style-type: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.menu li:nth-child(1) {
+    background: blue !important;
+}
+
+.menu li:hover {
+    background: green;
+}
+
+h1 {
+    text-align: center;
+    color: cyan;
+}
+
+.footer {
+    height: auto;
+    text-align: center;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer * {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.grid div div {
+    padding: 16px;
+    background: orange;
+    width: 80px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 30px;
+}
+
+button[type="submit"] {
+    background: #242424;
+    color: white;
+}
